@@ -1,0 +1,80 @@
+<html>
+<head>
+<title> Product order form </title>
+<style>
+body{background color:#26164D;
+min-height:100%;}
+body, form, input {outline-color:#26164D;
+outline-width:medium;
+font-family:Arial;
+font-size: 14px;
+color:#4F309B;
+line-height: 20px;
+}
+h1 {color:#26164D;
+font-family:Arial;
+text-decoration:double underline;}
+.textbox {background-color:#F3BEAC;
+padding:5px;}
+form {
+padding:30px;
+background-color:#F3BEAC;}
+th, td {
+      width: 5%;
+      padding: 15px 0;
+      
+      text-align: left;
+      line-height: 17px;
+      font-weight: 400;
+      
+      }
+.order{
+      width: 150px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px; 
+      border-radius: 5px; 
+      background-color: #26164D;
+      font-size: 16px;
+      color: #F3BEAC;
+      cursor: pointer;
+      }
+.order:hover{background-color:#16092E;}
+#left {font-size: 20px;}
+img {width: 200px;
+height: 200px;}
+</style>
+</head>
+<body>
+<div class="textbox">
+<img src="C:\Users\Nishtha Gautam\Downloads\Rose_Gold_Brush_Glitter_Feminine_Boutique_Circle_Logo__1_-removebg-preview.png">
+<center><h1 class="textbox"> Please enter your information</h1></center>
+<form>
+<table>
+<tr>
+<td id="left"><label>Name</label></td>
+<td><input type="text" placeholder="First name" name="first name" size=30 maxlenght=30/>
+ <input type="text" placeholder="Last name" name="last name" size=30 maxlenght=30/><br><br></td>
+</tr>
+<tr>
+<td id="left"><label> Phone Number </label></td>
+<td><input type="tel" name="contact"/><br><br></td>
+</tr>
+<tr>
+<td id="left"><label> Email Address </label></td>
+<td><input type="email" placeholder="example@example.com" name="email" /><br><br></td>
+</tr>
+<tr>
+<td id="left"><label> Delivery Address </label></td>
+<td><input type="text" name="address" placeholder="street address"size=60 maxlength=60/><br>
+<input type="text" name="address" placeholder="street address"size=60 maxlength=60/><br>
+<input type="text" name="city" placeholder="city"/>
+<input type="text" name="state" placeholder="State"/><br>
+<input type="text" name="pincode" placeholder="Pincode"/></td>
+</tr>
+</table>
+<center><input type="submit" href="mailto:btg20070@mail.jiit.ac.in" name="submit" value="Place Order" class="order"/></center>
+</form>
+</div>
+</body>
+</html>
